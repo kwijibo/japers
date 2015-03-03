@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/kwijibo/japers",
   "dependencies": {
-    "eventemitter": "^0.3.3"
+    "ramda": "^0.10.0"
   }
 }

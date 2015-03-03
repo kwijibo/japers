@@ -17,4 +17,5 @@ function removeQuad(g,s,p,o){
       }
       return g;
 }
+
 module.exports = removeQuad
