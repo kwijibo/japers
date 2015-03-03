@@ -1,0 +1,28 @@
+{
+  "name": "japers",
+  "version": "1.0.0",
+  "description": "auto partially applied functions for creating RDF structures in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwijibo/japers.git"
+  },
+  "keywords": [
+    "rdf",
+    "fp",
+    "curry",
+    "rdf-in-json"
+  ],
+  "author": "Keith Alexander",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/kwijibo/japers/issues"
+  },
+  "homepage": "https://github.com/kwijibo/japers",
+  "dependencies": {
+    "eventemitter": "^0.3.3"
+  }
+}
