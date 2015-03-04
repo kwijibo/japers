@@ -68,7 +68,7 @@ on the `argsOrder` parameter.
 For instance:
 ```
 var GopSPO = transpose([1,0,2,3,4], opGSPO)
-GopSPO({},'add','simon','age'56)
+GopSPO({},'add','simon','age', 56)
   
 
 ```
