@@ -1,5 +1,4 @@
-var autocurry = require('./autocurry.js')
-  , addQuad = require('./addquad.js')
+var addQuad = require('./addquad.js')
   , removeQuad = require('./removequad.js')
 
 function opGSPO(op,g,s,p,o){
@@ -14,4 +13,4 @@ function opGSPO(op,g,s,p,o){
 
 
 
-module.exports = autocurry(opGSPO,5)
+module.exports = opGSPO
